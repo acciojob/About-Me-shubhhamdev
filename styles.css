@@ -1,1 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.skill_container{
+   display: flex;
+   justify-content: space-between;
+}
+.skill{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.bar{
+    height: 10px;
+    border: 2px solid black;
+    background-color: #cde1f8;
+}
+.loader{
+    height: 10px;
+    width: 95%;
+    background-color: blue;
+}
+.container{
+    display: flex;
+}
 
